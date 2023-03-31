@@ -1,6 +1,6 @@
 
 import './App.css';
-import Blogs from './Components/Header/Blogs/Blogs';
+import Blogs from './Components/Blogs/Blogs';
 import Header from './Components/Header/Header';
 
 function App() {
