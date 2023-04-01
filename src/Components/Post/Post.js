@@ -15,7 +15,7 @@ const Post = (props) => {
             
             <p>{publish_date}</p>
             <h2>{title}</h2>
-            <a href="">Mark as read</a>
+            <button className='btn-mark'>Mark as read</button>
             
         </div>
     );

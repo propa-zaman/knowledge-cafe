@@ -4,6 +4,7 @@
     /* border: 1px solid #95A0A7;
     border-radius: 10px; */
     margin-top: 50px;
+    margin-left: 40px;
 
 }
 
@@ -13,7 +14,6 @@
     border-radius: 10px;
 
 }
-
 .author {
     display: flex;
 }
@@ -22,6 +22,15 @@
     width: 7%;
 }
 
-.read_time {
+.read-time {
     margin-left: 630px;
+}
+
+.btn-mark{
+    background: none;
+    border: none;
+    color: blueviolet;
+    font-size: medium;
+    text-decoration: underline;
+ 
 }
