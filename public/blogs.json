@@ -7,7 +7,7 @@
         "blog_cover": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "author_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWfdz9U_5wTQ-scQybPEOdfQ2nHybjURArzB3ezIue0mTC5O8WI0qZCxxibjvy3ErfLxs&usqp=CAU"
       },
-      "read_time": "5 min",
+      "read_time": 5,
       "publish_date": "2022-01-01"
     },
     {
@@ -18,7 +18,7 @@
         "blog_cover": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "author_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZR6Gs7vDfFNNMsCAc2pNG0LaG3xAgnZDapQ&usqp=CAU"
       },
-      "read_time": "10 min",
+      "read_time": 10,
       "publish_date": "2022-02-15"
     },
     {
@@ -29,7 +29,7 @@
         "blog_cover": "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "author_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFepZGtR7u-aNc592F4YPqUfi-8BIxz9e0smYvJuLOzdjvjxfbhkOnxANP6aeTK3vjOYw&usqp=CAU"
       },
-      "read_time": "7 min",
+      "read_time": 7,
       "publish_date": "2022-03-05"
     },
     {
@@ -40,7 +40,7 @@
         "blog_cover": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
         "author_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQQTS4NPqnCGbJPd4x7O_YJNOJ5gH6KkejH3nhVfIhxwwJPHEotjPs0VCpGg-UcybvxM&usqp=CAU"
       },
-      "read_time": "8 min",
+      "read_time": 8,
       "publish_date": "2022-04-20"
     }
   ]

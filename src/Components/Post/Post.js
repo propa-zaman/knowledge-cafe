@@ -12,13 +12,13 @@ const Post = (props) => {
             <div className='author'>
             <img src={images.author_image} alt="" className='author-image'/>
             <p>{author}</p>
-            <p className='read-time'>{read_time}<FontAwesomeIcon icon={faBookmark} /></p>
+            <p className='read-time'>{read_time} min<FontAwesomeIcon icon={faBookmark} /></p>
             </div>
             
             
             <p>{publish_date}</p>
             <h2>{title}</h2>
-            <button className='btn-mark' onClick={() => handleSpendTime(props.blog)}>Mark as read
+            <button className='btn-mark' onClick={() => handleSpendTime(read_time)}>Mark as read
             </button>
             
         </div>
