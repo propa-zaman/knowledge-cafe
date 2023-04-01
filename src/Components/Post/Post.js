@@ -6,13 +6,20 @@ import './Post.css'
 const Post = (props) => {
     const {author, title, images, read_time, publish_date} = props.blog;
     const handleSpendTime = props.handleSpendTime;
+    const handlerBookmarks = props.handlerBookmarks;
+    const blogTitles = props.blogTitles;
     return (
         <div className='post'>
             <img src={images.blog_cover} alt="" className='blog-cover'/> <br />
             <div className='author'>
             <img src={images.author_image} alt="" className='author-image'/>
             <p>{author}</p>
-            <p className='read-time'>{read_time} min<FontAwesomeIcon icon={faBookmark} /></p>
+            <p onClick={() => {
+                  handlerBookmarks(title);}
+            } 
+            className='read-time'>{read_time} min
+            
+            <FontAwesomeIcon icon={faBookmark} /></p>
             </div>
             
             

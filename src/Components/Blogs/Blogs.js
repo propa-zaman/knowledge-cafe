@@ -6,6 +6,8 @@ import './Blogs.css'
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     const [spendTime, setTime] = useState(0);
+    const [bookmarksCounter, setBookmarksCounter] = useState(0);
+    const [blogTitles, setBlogTitles] = useState([]);
 
     useEffect(() =>{
         fetch('blogs.json')
@@ -16,6 +18,11 @@ const Blogs = () => {
     const handleSpendTime = (time) =>{
         setTime(spendTime + time);
     }
+
+    const handlerBookmarks = (blogTitle) => {
+        setBookmarksCounter(bookmarksCounter + 1);
+        setBlogTitles([...blogTitles, blogTitle]);
+      }
     
     return (
         <div className='main-container'>
@@ -24,7 +31,9 @@ const Blogs = () => {
                 blogs.map(blog => <Post
                     key={blog.id}
                     blog={blog}
-                    handleSpendTime={handleSpendTime}>
+                    handleSpendTime={handleSpendTime}
+                    handlerBookmarks={handlerBookmarks}
+                    blogTitles={blogTitles}>
                     
                     
                 </Post>)
@@ -33,7 +42,8 @@ const Blogs = () => {
 
             <div className='bookmark-container'>
                 <Bookmark 
-                spendTime={spendTime}></Bookmark>
+                spendTime={spendTime}
+                bookmarksCounter={bookmarksCounter}></Bookmark>
 
             </div>
             
