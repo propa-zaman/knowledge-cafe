@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBookmark } from '@fortawesome/free-solid-svg-icons'
+  import { ToastContainer, toast } from 'react-toastify';
 import './Post.css'
 
 const Post = (props) => {
@@ -8,6 +9,17 @@ const Post = (props) => {
     const handleSpendTime = props.handleSpendTime;
     const handlerBookmarks = props.handlerBookmarks;
     const blogTitles = props.blogTitles;
+
+    const notify = (title) => {
+        let flag = false;
+        for (const btitle of blogTitles) {
+          if (btitle === title && !flag) {
+            toast("You can not add bookmark again");
+            flag = true;
+          }
+        }
+        flag = false;
+      };
     return (
         <div className='post'>
             <img src={images.blog_cover} alt="" className='blog-cover'/> <br />
@@ -15,7 +27,8 @@ const Post = (props) => {
             <img src={images.author_image} alt="" className='author-image'/>
             <p>{author}</p>
             <p onClick={() => {
-                  handlerBookmarks(title);}
+                  handlerBookmarks(title);
+                notify(title)}
             } 
             className='read-time'>{read_time} min
             

@@ -43,7 +43,8 @@ const Blogs = () => {
             <div className='bookmark-container'>
                 <Bookmark 
                 spendTime={spendTime}
-                bookmarksCounter={bookmarksCounter}></Bookmark>
+                bookmarksCounter={bookmarksCounter}
+                blogTitles={blogTitles}></Bookmark>
 
             </div>
             
