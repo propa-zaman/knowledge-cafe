@@ -34,3 +34,28 @@
     text-decoration: underline;
  
 }
+
+
+/* Responsive */
+@media screen and (max-width:576px) {
+   .post{
+    width: 50%;
+   }
+   .blog-cover{
+    width: 70%;
+   }
+   .author{
+    width: 50%;
+   }
+   .author-image{
+    width: 15%;
+    height: 10%;
+   }
+   .read-time {
+    margin-left: 260px;
+}
+    
+    
+    
+    
+    }

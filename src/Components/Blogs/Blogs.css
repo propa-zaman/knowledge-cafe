@@ -10,3 +10,15 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 15px;
 }
+
+/* Responsive */
+@media screen and (max-width:576px) {
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+}
