@@ -12,9 +12,9 @@ const Post = (props) => {
 
     const notify = (title) => {
         let flag = false;
-        for (const btitle of blogTitles) {
-          if (btitle === title && !flag) {
-            toast("You can not add bookmark again");
+        for (const tit of blogTitles) {
+          if (tit === title && !flag) {
+            toast("You Have Already Bookmarked This Blog");
             flag = true;
           }
         }

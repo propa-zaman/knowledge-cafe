@@ -6,7 +6,7 @@ const Bookmark = ({ spendTime, blogTitles, bookmarksCounter }) => {
         <div className='bookmark'>
             <h3>Spend time on read: {spendTime} min</h3>
             <h3>Bookmarked Blogs: {bookmarksCounter}</h3>
-            <div className='bookmark-title'>
+            <div>
                 {
                     blogTitles.map((blogTitle, index) => {
                         return (
