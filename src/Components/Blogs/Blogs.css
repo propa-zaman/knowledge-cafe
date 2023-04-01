@@ -1,6 +1,8 @@
 .main-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    width: 1200px;
+    margin: auto;
 }
 
 .blogs-container{
